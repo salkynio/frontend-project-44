@@ -5,8 +5,7 @@ const evenGame = () => {
   const purposeOfEvenGame = 'Answer "yes" if the number is even , otherwise answer "no."';
 
   const taskForEvenGame = () => {
-    const randomNumber = getRandom(0, 100);
-    console.log(randomNumber);
+    const randomNumber = getRandom(100);
 
     const isEven = (number) => number % 2 === 0;
 
