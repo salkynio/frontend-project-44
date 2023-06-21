@@ -6,7 +6,6 @@ const progressionGame = () => {
   const taskForProgressionGame = () => {
     const random = getRandomRange(5, 10);
     const first = Math.floor(Math.random() * 10) + 2;
-    const step = Math.floor(Math.random() * 5);
 
     const progression = [];
 
