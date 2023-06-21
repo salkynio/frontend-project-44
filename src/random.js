@@ -6,3 +6,4 @@ const getRandom = (max) => Math.round(Math.random() * max);
 
 // export default getRandomRange;
 export default getRandom;
+export const getRandomRange = (min, max) => Math.round(Math.random() * (max - min) + min);
