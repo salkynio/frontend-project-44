@@ -3,8 +3,8 @@ import readlineSync from 'readline-sync';
 const basicOfGames = (description, task) => {
   console.log('Welcome to the Brain Games!');
   const name = readlineSync.question('May I have your name? ');
-  console.log(description);
   console.log(`Hello, ${name}!`);
+  console.log(description);
 
   for (let i = 0; i < 3; i += 1) {
     const [question, result] = task();
